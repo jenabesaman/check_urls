@@ -153,7 +153,7 @@ group_chat = skype.chats[group_chat_id]
 
 
 if output ==[[]]:
-    message ='Response from main server: All sites are UP!'
+    message ='Response from main server: All sites and services are UP!'
     group_chat.sendMsg(message)
 else:
     message = str(output)
